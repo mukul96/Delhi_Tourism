@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hardik.delhitourism.MainActivity22Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45"
+        android:background="@drawable/tughlaqabad">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Tughlaqabad Fort"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Tughlaqabad Fort is a ruined fort in Delhi, stretching over 6 km, built by Ghiyas-ud-din Tughlaq, the founder of Tughlaq dynasty, of the Delhi Sultanate of India in 1321, as he established the third historic city of Delhi, which was later abandoned in 1327.\n\n
+It lends its name to the nearby Tughlaqabad residential-commercial area as well as the Tughlaqabad Institutional Area. Tughalaq also built Qutub-Badarpur Road, which connected the new city to the Grand Trunk Road. The road is now known as Mehrauli-Badarpur Road. Also nearby is the Asola Bhatti Wildlife Sanctuary, Dr. Karni Singh Shooting Range and Okhla Industrial Area."/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hardik.delhitourism.MainActivity22Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45"
+        android:background="@drawable/cp">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Connaught Place"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Connaught Place is one of the largest financial, commercial and businees centres in Delhi, a nostalgic shoppers' paradise reminiscent of the opulence and grace of the bygone Victorian era.\n\n
+It houses one of India's first underground markets, the Palika Bazaar (Municipal Market), named after nagarpalika. The Outer Circle is known as the Connaught Circus (officially Indira Chowk), having rows of restaurants, shops and hotels. The Middle Circle has offices and small eating outlets.\n\n
+Connaught Place's central park has long been a venue for cultural events. On 7 March 2014, the largest known Indian national tricolour at that time (now second largest) was hoisted at the centre of Central Park, measuring 90 by 60 feet (27 by 18 m)."/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

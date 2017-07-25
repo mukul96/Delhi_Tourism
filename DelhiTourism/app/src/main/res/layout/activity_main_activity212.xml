@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.hardik.delhitourism.MainActivity22Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45"
+        android:background="@drawable/qutub">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Qutub Minar"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.45">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Qutub Minar, at 73 meters, is the tallest brick minaret in the world. The tower is located in the Mehrauli area of Delhi, India. Made of red sandstone and marble, Qutub Minar is a 73-meter (240 feet) tall tapering tower with a diameter measuring 14.32 meters (47 feet) at the base and 2.75 meters (9 feet) at the peak. Inside the tower, a circular staircase with 379 steps leads to the top.\n\n
+In 1200 AD, Qutb al-Din Aibak, the founder of the Delhi Sultanate started construction of the Qutb Minar. In 1220, Aibak's successor and son-in-law Iltutmish added three storeys to the tower.\n\n
+Qutb Minar is surrounded by several historically significant monuments, which are historically connected with the tower and are part of the Qutub Complex. These include the Iron Pillar of Delhi, Quwwat-ul-Islam Mosque, Alai Darwaza, the Tomb of Iltutmish, Alai Minar, Ala-ud-din's Madrasa and Tomb, and the Tomb of Imam Zamin. Other minor monuments include Major Smith's Cupola and Sanderson's Sundial."/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

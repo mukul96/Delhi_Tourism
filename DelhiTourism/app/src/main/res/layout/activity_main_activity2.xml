@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hardik.delhitourism.MainActivity2Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="akshardham"
+        android:id="@+id/button"
+        android:onClick="a"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="banglasahib"
+        android:id="@+id/button2"
+        android:onClick="b"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="humayun"
+        android:id="@+id/button3"
+        android:onClick="c"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="india gate"
+        android:id="@+id/button4"
+        android:onClick="d"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jama masjid"
+        android:id="@+id/button5"
+        android:onClick="e"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jantar mantar"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:onClick="f"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lotus"
+        android:id="@+id/button7"
+        android:onClick="g"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nat. museum"
+        android:id="@+id/button8"
+        android:onClick="h"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="parliament"
+        android:id="@+id/button9"
+        android:onClick="i"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="purana quila"
+        android:id="@+id/button10"
+        android:onClick="j"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignStart="@+id/button14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qutub minar"
+        android:id="@+id/button11"
+        android:onClick="k"
+        android:layout_below="@+id/button10"
+        android:layout_alignRight="@+id/button10"
+        android:layout_alignEnd="@+id/button10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rashtrapati"
+        android:id="@+id/button12"
+        android:onClick="l"
+        android:layout_below="@+id/button11"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="red fort"
+        android:id="@+id/button13"
+        android:onClick="m"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cathedral"
+        android:id="@+id/button14"
+        android:onClick="n"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="safdurjung tomb"
+        android:id="@+id/button15"
+        android:onClick="o"
+        android:layout_below="@+id/button14"
+        android:layout_alignRight="@+id/button14"
+        android:layout_alignEnd="@+id/button14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="garden of five senses"
+        android:id="@+id/button16"
+        android:onClick="p"
+        android:layout_below="@+id/button15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tkd fort"
+        android:id="@+id/button17"
+        android:onClick="q"
+        android:layout_above="@+id/button14"
+        android:layout_toLeftOf="@+id/button20"
+        android:layout_toStartOf="@+id/button20" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ansal plaza"
+        android:id="@+id/button18"
+        android:onClick="r"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delhi Haat"
+        android:id="@+id/button19"
+        android:onClick="s"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/button11"
+        android:layout_toStartOf="@+id/button11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chandni chowk"
+        android:id="@+id/button20"
+        android:onClick="t"
+        android:layout_alignTop="@+id/button18"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="connaught place"
+        android:id="@+id/button21"
+        android:onClick="u"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="karol bagh"
+        android:id="@+id/button22"
+        android:onClick="v"
+        android:layout_below="@+id/button16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
